@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/activity_album_choose_photo_item1_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop" />
+
+    <ImageButton
+        android:id="@+id/activity_album_choose_photo_item1_select"
+        android:clickable="false"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:src="@drawable/album_photo_checkbox_normal" />
+
+</RelativeLayout><!-- From: file:/Users/MinFo021/Desktop/xzmSeller/CarRepair/albumlibrary/src/main/res/layout/activity_album_choose_photo_item1.xml -->

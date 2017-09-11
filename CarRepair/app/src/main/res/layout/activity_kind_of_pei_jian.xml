@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.minfo.carrepair.activity.publish.KindOfPeiJianActivity">
+
+    <include
+        layout="@layout/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/lv_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0.2dp"
+            android:divider="@mipmap/qixiu_fenjie"
+            android:layout_weight="1" />
+
+        <ListView
+            android:id="@+id/lv_second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="2" />
+    </LinearLayout>
+</LinearLayout>

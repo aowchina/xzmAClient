@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.minfo.carrepair.activity.shop.StoreActivity">
+
+    <include
+        layout="@layout/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.minfo.carrepair.widget.PullToRefreshView
+        android:id="@+id/ptr_store"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_store"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@mipmap/qixiu_fenjie"
+            android:dividerHeight="0.2dp"
+            android:scrollbars="none" />
+    </com.minfo.carrepair.widget.PullToRefreshView>
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scrollbars="none">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+            <!---->
+
+            <!--<ListView-->
+                <!--android:id="@+id/lv_store"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scrollbars="none" />-->
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+</LinearLayout>

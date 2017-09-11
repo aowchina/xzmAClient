@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题颜色-->
+    <color name="color_white">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color><!-- 红色 -->
+    <color name="black">#000000</color><!-- 黑色 -->
+    <color name="gray">#828282</color><!-- hui色 -->
+    <color name="color_red">#ff0000</color>
+    <color name="color_common">#f5f5f5</color>
+    <color name="color_trans">#90ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 登录注册字体 -->
+    <color name="color_login_hint">#d5d7da</color>
+    <color name="color_login_edit">#828282</color>
+
+
+    <!--菜单栏的页面色值 -->
+    <color name="skin_menu_text_start">#eeeff1</color>
+    <color name="skin_menu_text_end">#c8cacf</color>
+    <color name="skin_menu_text_ck">#828282</color>
+
+    <!--商城的页面色值 -->
+    <color name="shop_text_name">#000000</color>
+    <color name="shop_text_price">#c80000</color>
+    <color name="shop_text_common">#828282</color>
+
+    <!--配件详情的页面色值 -->
+    <color name="oem_red">#c80000</color>
+    <!--店铺的页面色值 -->
+    <color name="store_text_choseun">#000000</color>
+    <color name="store_text_chose">#cf3030</color>
+
+
+    <!-- 车型-->
+    <color name="color_kind_pro">#000000</color>
+    <color name="color_kind_bac">#245245</color>
+    <color name="color_kind_two">#494848</color>
+    <!-- 报价横线-->
+    <color name="color_line_bac">#828282</color>
+    <color name="color__red">#c80000</color>
+
+
+</resources>

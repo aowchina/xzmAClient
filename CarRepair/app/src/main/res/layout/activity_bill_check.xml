@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bill_check"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_no_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_title"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <RelativeLayout
+            android:id="@+id/rl_no_message_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            >
+            <FrameLayout
+                android:id="@+id/fl_no_message_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/qixiu_wddd_yuan"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/qixiu_wddd_icon"
+                    android:layout_gravity="center"
+                    />
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/fl_no_message_icon"
+                android:text="您还没有账单信息"               />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <com.minfo.carrepair.widget.PullToRefreshView
+        android:id="@+id/ptr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_title"
+        >
+        <!--<in.srain.cube.views.ptr.PtrClassicFrameLayout-->
+        <!--android:id="@+id/ptr_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/layout_title"-->
+        <!--android:background="@color/color_white">-->
+
+
+        <ListView
+            android:id="@+id/lv_bill"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@mipmap/qixiu_fenjie"
+            android:dividerHeight="0.2dp"
+            android:scrollbars="none" />
+        <!--</in.srain.cube.views.ptr.PtrClassicFrameLayout>-->
+    </com.minfo.carrepair.widget.PullToRefreshView>
+</RelativeLayout>
