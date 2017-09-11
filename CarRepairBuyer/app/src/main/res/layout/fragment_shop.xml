@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    tools:context="com.minfo.carrepairseller.fragment.ShopFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/color_white">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_shaixuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:textColor="@color/shop_text_common"
+                android:text="筛选" />
+
+
+            <TextView
+                android:id="@+id/tv_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="商城"
+                android:textColor="@color/shop_text_name"
+                android:textSize="16sp" />
+            <ImageView
+                android:id="@+id/iv_seach"
+                android:src="@mipmap/qixiu_sousuo"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@mipmap/qixiu_fenjie"
+            />
+        <!--<in.srain.cube.views.ptr.PtrClassicFrameLayout-->
+            <!--android:id="@+id/ptr_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/color_white">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+                <!---->
+                <!--<ListView-->
+                    <!--android:id="@+id/lv_shop"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbars="none" />-->
+            <!--</LinearLayout>-->
+        <!--</in.srain.cube.views.ptr.PtrClassicFrameLayout>-->
+        <com.minfo.carrepairseller.widget.PullToRefreshView
+            android:id="@+id/ptr_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"
+            >
+
+            <ListView
+                android:id="@+id/lv_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@mipmap/qixiu_fenjie"
+                android:dividerHeight="0.2dp"
+                android:scrollbars="none" />
+        </com.minfo.carrepairseller.widget.PullToRefreshView>
+    </LinearLayout>
+
+</FrameLayout>

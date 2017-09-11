@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/color_white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:id="@+id/ll_dsf_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.3dp"
+                android:layout_weight="1"
+                android:background="@color/color_login_edit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其他登录方式" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.3dp"
+                android:layout_weight="1"
+
+                android:background="@color/color_login_edit" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_dslogin"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/skin_weixin" />
+    </LinearLayout>
+</RelativeLayout>

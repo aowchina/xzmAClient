@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">心之盟</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    //版本信息
+    <string name="version">1.0</string>
+    <string name="appid">7000000008</string>
+
+    <!--<string name="api_baseurl">http://192.168.1.106/zjxzm/api/users/</string>-->
+    <!--<string name="img_baseurl">http://192.168.1.110/zjxzm/</string>-->
+    <string name="api_baseurl">http://zjxzm.min-fo.com/api/users/</string>
+    <!--<string name="api_baseurl">http://192.168.1.105/fzjh/api/front/</string>-->
+    <string name="img_baseurl">http://zjxzm.min-fo.com/</string>
+
+    //网络提示
+    <string name="no_internet">暂时无网络，请检查设置</string>
+    <string name="server_error">连接服务器出错</string>
+    <string name="network_error">连接网络出错</string>
+    <string name="resourse_error">资源找不到</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!--微信-->
+    <string name="wxappid">wx4d9f692ef2985664</string>
+    <string name="wxkey">qazwsxedcrfvtgbyhnujmikolp123456</string>
+    <string name="wxmchid">1481528832</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="title_activity_chang_pwd">ChangPwdActivity</string>
+    <string name="title_activity_check">CheckActivity</string>
+    <string name="title_activity_product_query">ProductQueryActivity</string>
+    <string name="title_activity_epcquery">EPCQueryActivity</string>
+    <string name="title_activity_epcdetail">EPCDetailActivity</string>
+    <string name="title_activity_oemdetail">OEMDetailActivity</string>
+    <string name="title_activity_store">StoreActivity</string>
+    <string name="title_activity_vinquery">VINQueryActivity</string>
+    <string name="title_activity_product_purchase_vin">ProductPurchaseVINActivity</string>
+    <string name="title_activity_chose_car">ChoseCarActivity</string>
+    <string name="title_activity_collect">CollectActivity</string>
+
+    <!-- 下拉 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载……</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="title_activity_help_center">HelpCenterActivity</string>
+    //环信
+    <string name="emojicon_test_name">Test</string>
+
+    <string name="car_price">报价</string>
+    <string name="car_purchase">求购</string>
+    <string name="car_order">收款</string>
+
+    //求购
+    <string name="purchase_string">purchaseInfo</string>
+
+    <string name="purchase_name_send">请为我报价</string>
+    <string name="purchase_name_receive">需要报价信息</string>
+    <string name="purchase_kind">求购单</string>
+
+
+    //报价
+    <string name="price_string">priceInfo</string>
+
+    <string name="price_name_send">我的报价</string>
+    <string name="price_name_receive">对方已报价</string>
+    <string name="price_namekind">点击查看报价</string>
+    //收款
+    <string name="order_string">orderInfo</string>
+
+    <string name="order_name_send">向对方收款</string>
+    <string name="order_name_rceive">对方向你收款</string>
+    <string name="order_name_kind">收款</string>
+    //商品
+    <string name="product_string">shopInfo</string>
+
+    <string name="shopInfo">商品信息</string>
+    <string name="product_name_receive">对方向你收款</string>
+    <string name="product_name_kind">点击查看</string>
+    //环信拓展消息内容
+    <string name="car_name">name</string>
+    <string name="car_icon">icon</string>
+    <string name="ca_price">price</string>
+    <string name="car_infoId">infoId</string>
+    <string name="car_carTpye">carType</string>
+    <string name="title_activity_evaluate">EvaluateActivity</string>
+    <string name="title_activity_my_purchase">MyPurchaseActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+</resources>

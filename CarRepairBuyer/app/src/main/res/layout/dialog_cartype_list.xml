@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/skin_cha"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@mipmap/qixiu_fenjie" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        >
+        <ListView
+            android:id="@+id/lv_car_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@mipmap/qixiu_fenjie"
+            android:dividerHeight="0.2dp"
+            android:scrollbars="none"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/qixiu_publish_ensure"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="确定"
+        />
+
+</LinearLayout>

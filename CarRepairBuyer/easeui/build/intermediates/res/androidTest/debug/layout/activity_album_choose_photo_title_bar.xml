@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_titlebar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/album_actionbar_bg"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/activity_album_choose_photo_titlebar_back"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:onClick="titleBarBack"
+        android:scaleType="fitXY"
+        android:src="@drawable/titlebar_back_white" />
+
+    <TextView
+        android:id="@+id/activity_album_choose_photo_titlebar_title"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="图片选择"
+        />
+
+    <ImageView
+        android:id="@+id/activity_titlebar_menu"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:onClick="titleBarMenu"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/activity_album_choose_photo__titlebar_ensure"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="titleBarEnsure"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:text="完成"
+        />
+
+</LinearLayout><!-- From: file:/Users/MinFo021/Desktop/xzmBuyer/CarRepairBuyer/albumlibrary/src/main/res/layout/activity_album_choose_photo_title_bar.xml --><!-- From: file:/Users/MinFo021/Desktop/xzmBuyer/CarRepairBuyer/easeui/build/intermediates/exploded-aar/CarRepairBuyer/albumlibrary/unspecified/res/layout/activity_album_choose_photo_title_bar.xml -->

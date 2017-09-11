@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--&lt;!&ndash; 主题颜色&ndash;&gt;-->
+	<!--<color name="primary">#0096FF</color>-->
+	<!--<color name="primary_dark">#23A4FF</color>-->
+	<!--<color name="accent">#FF4081</color>-->
+	<!--<color name="window_background">#FFF5F5F5</color>-->
+	<!--<color name="devide_line">#CBCED2</color>-->
+    <!--&lt;!&ndash; 基本颜色 &ndash;&gt;-->
+	<!--<color name="green">#00DD00</color>&lt;!&ndash; 绿色 &ndash;&gt;-->
+	<!--<color name="black">#000000</color>&lt;!&ndash; 黑色 &ndash;&gt;-->
+	<!--<color name="white">#FFFFFF</color>&lt;!&ndash; 白色 &ndash;&gt;-->
+	<!--<color name="red">#ff0000</color>&lt;!&ndash; 红色 &ndash;&gt;-->
+	<!--<color name="darkgray">#A9A9A9</color> &lt;!&ndash; 暗灰色 &ndash;&gt;-->
+	<!--<color name="titlegray">#666</color> &lt;!&ndash; 标题灰色 &ndash;&gt;-->
+	<!--<color name="lightgray">#CCD4D6</color> &lt;!&ndash; 浅灰色 &ndash;&gt;-->
+	<!--<color name="caption_blue1">#1283d2</color> &lt;!&ndash; 标题蓝色 &ndash;&gt;-->
+	<!--<color name="caption_blue">#00B4FF</color> &lt;!&ndash; 标题蓝色 &ndash;&gt;-->
+	<!--<color name="dark_blue">#007AC1</color> &lt;!&ndash; 深蓝色 &ndash;&gt;-->
+	<!--<color name="light_blue">#57C4E1</color> &lt;!&ndash; 浅蓝色 &ndash;&gt;-->
+	<!--<color name="light_yellow">#F7E07A</color> &lt;!&ndash; 浅黄色 &ndash;&gt;-->
+	<!--<color name="login_green">#3eb65d</color>-->
+	<!--&lt;!&ndash;<color name="bg_cart_color">#b3ffffff</color>&ndash;&gt;-->
+
+	<!--&lt;!&ndash; waiting dialog  &ndash;&gt;-->
+	<!--<color name="waiting_dlg_bg_color">#348DF1</color>-->
+	<!--<color name="waiting_dlg_text_color">#ffffff</color>-->
+	<!--<color name="waiting_dlg_bg_bg_color">#66000000</color>-->
+	<!---->
+	<!--&lt;!&ndash; edit dialog  &ndash;&gt;-->
+	<!--<color name="edit_list_divider_color">#cfcfcf</color>-->
+
+	<!--<color name="contents_text">#ff000000</color>-->
+	<!--<color name="encode_view">#ffffffff</color>-->
+	<!--<color name="help_button_view">#ffcccccc</color>-->
+	<!--<color name="help_view">#ff404040</color>-->
+	<!--<color name="possible_result_points">#c0ffff00</color>-->
+	<!--<color name="result_image_border">#ffffffff</color>-->
+	<!--<color name="result_minor_text">#ffc0c0c0</color>-->
+	<!--<color name="result_points">#c000ff00</color>-->
+	<!--<color name="result_text">#ffffffff</color>-->
+	<!--<color name="result_view">#b0000000</color>-->
+	<!--<color name="sbc_header_text">#ff808080</color>-->
+	<!--<color name="sbc_header_view">#ffffffff</color>-->
+	<!--<color name="sbc_list_item">#fffff0e0</color>-->
+	<!--<color name="sbc_layout_view">#ffffffff</color>-->
+	<!--<color name="sbc_page_number_text">#ff000000</color>-->
+	<!--<color name="sbc_snippet_text">#ff4b4b4b</color>-->
+	<!--<color name="share_text">#ff000000</color>-->
+	<!--<color name="share_view">#ffffffff</color>-->
+	<!--<color name="status_view">#50000000</color>-->
+	<!--<color name="status_text">#ffffffff</color>-->
+	<!--<color name="transparent">#00000000</color>-->
+	<!--<color name="viewfinder_frame">#ff000000</color>-->
+	<!--<color name="viewfinder_laser">#ffff0000</color>-->
+	<!--<color name="viewfinder_mask">#60000000</color>-->
+	<!--<color name="littlegray">#E8E8E8</color>-->
+	<!---->
+	<!--&lt;!&ndash;首页的页面色值 &ndash;&gt;-->
+	<!--<color name="home_text_blue">#1238d2</color>-->
+	<!--<color name="home_text_gray">#919191</color>-->
+	<!--<color name="home_text_lighgray">#666666</color>-->
+	<!--<color name="main_text_false">#595959</color>-->
+	<!--<color name="main_text_ture">#2b81d8</color>-->
+
+	<!--<color name="ms_eight">#8d8d8d</color>-->
+	<!--<color name="ms_twelve">#b0b0b0</color>-->
+	<!--<color name="ms_six">#bbbbbb</color>-->
+	<!--<color name="ms_twenth">#c6c6c6</color>-->
+	<!--<color name="ms_zero">#cfcfcf</color>-->
+	<!--<color name="ms_red">#db3c05</color>-->
+
+	<!--<color name="order_black">#989898</color>-->
+	<!--<color name="order_red">#ff4d6e</color>-->
+
+	<!--<color name="registered_num_nomal">#f71c7b</color>-->
+	<!--<color name="registered_num_true">#444444</color>-->
+
+
+
+	<!--&lt;!&ndash; 登录注册字体 &ndash;&gt;-->
+	<!--<color name="color_login_hint">#deb7b0</color>-->
+	<!--<color name="color_login_edit">#ac0300</color>-->
+	<!--<color name="color_register_red">#b00000</color>-->
+	<!--<color name="color_register_lred">#a94134</color>-->
+	<!--<color name="color_register_address">#fdddde</color>-->
+	<!--&lt;!&ndash;首页的页面色值 &ndash;&gt;-->
+	<!--<color name="main_down_false">#b0918c</color>-->
+	<!--<color name="main_down_ture">#b00000</color>-->
+	<!--&lt;!&ndash;背景色值 &ndash;&gt;-->
+	<!--<color name="main_bg_color">#fdddde</color>-->
+	<!--&lt;!&ndash;新品的页面色值 &ndash;&gt;-->
+	<!--<color name="new_name_color">#b0918c</color>-->
+	<!--<color name="new_price_color">#b00000</color>-->
+	<!--<color name="new_productbg_color">#ffeded</color>-->
+	<!--&lt;!&ndash;产品的页面色值 &ndash;&gt;-->
+	<!--<color name="product_title_color">#b0918c</color>-->
+	<!--<color name="product_title_bg">#fdd4d1</color>-->
+	<!--<color name="product_title_click">#fddddd</color>-->
+	<!--&lt;!&ndash; 头部标题栏背景 &ndash;&gt;-->
+	<!--<color name="color_topbar_bg">#dd0000</color>-->
+	<!--&lt;!&ndash; 购物车界面 &ndash;&gt;-->
+	<!--<color name="color_shopcart_bg">#fdddde</color>-->
+	<!--<color name="color_shopcart_good_title">#ad0101</color>-->
+	<!--<color name="color_shopcart_good_info">#deb7b2</color>-->
+	<!--<color name="color_shopcart_good_price">#b00201</color>-->
+	<!--<color name="color_shopcart_good_num">#af0100</color>-->
+	<!--<color name="color_shopcart_good_adddel">#deb7b0</color>-->
+	<!--<color name="color_shopcart_good_chooseall">#b00002</color>-->
+	<!--<color name="color_shopcart_good_total">#a2837e</color>-->
+	<!--<color name="color_shopcart_linex">#d6a7a1</color>-->
+	<!--&lt;!&ndash; 确认订单 &ndash;&gt;-->
+	<!--<color name="color_ensure_order_contect">#ae0001</color>-->
+	<!--<color name="color_ensure_order_address">#af0102</color>-->
+	<!--<color name="color_ensure_order_item_bg">#ffeded</color>-->
+	<!--&lt;!&ndash;产品详情的页面色值 &ndash;&gt;-->
+	<!--<color name="product_price_color">#ca2826</color>-->
+	<!--<color name="product_commom_color">#b0918c</color>-->
+	<!--<color name="product_num_color">#ab2d2e</color>-->
+
+	<!--<color name="product_bg_color">#FCD4D6</color>-->
+	<!--<color name="product_bg1_color">#ffeded</color>-->
+
+	<!--<color name="bg_cart_color">#66ffffff</color>-->
+	<!--&lt;!&ndash;main的页面色值 &ndash;&gt;-->
+	<!--<color name="main_line_color">#d5a7a1</color>-->
+	<!--<color name="main_bq_color">#ffd0ca</color>-->
+	<!--&lt;!&ndash;个人中心的页面色值 &ndash;&gt;-->
+	<!--<color name="person_bg_color">#FCD4D6</color>-->
+	<!--<color name="person_bg1_color">#ffeded</color>-->
+	<!--<color name="person_kind_color">#a54431</color>-->
+	<!--<color name="person_commom_color">#deb7b2</color>-->
+	<!--<color name="person_line_color">#deb7b2</color>-->
+	<!--&lt;!&ndash; 收货地址的色值 &ndash;&gt;-->
+	<!--<color name="color_address_bg">#fdddde</color>-->
+	<!--<color name="color_address_add">#fe4e1c</color>-->
+	<!--<color name="color_address_item_bg">#ffeded</color>-->
+	<!--<color name="color_address_title">#b00203</color>-->
+	<!--<color name="color_address_content">#FCD4D6</color>-->
+	<!--<color name="color_address_edit">#b00000</color>-->
+	<!--<color name="color_address_linex">#deb7b2</color>-->
+	<!--<color name="color_address_spinner">#dfbbbb</color>-->
+	<!--<color name="color_address_spinner_item">#fcfcfa</color>-->
+	<!--&lt;!&ndash; 订单列表 &ndash;&gt;-->
+	<!--<color name="color_order_bg">#fdddde</color>-->
+	<!--<color name="color_order_item_bg">#ffeded</color>-->
+	<!--<color name="color_order_ziti_lred">#deb7b2</color>-->
+	<!--<color name="color_order_ziti_red">#af0100</color>-->
+
+	<!--&lt;!&ndash; 扫一扫的色值 &ndash;&gt;-->
+	<!--<color name="color_sao_bg">#d33e2a</color>-->
+	<!--&lt;!&ndash; 修改密码的色值 &ndash;&gt;-->
+	<!--<color name="color_psw_font">#ac0300</color>-->
+	<!--<color name="color_psw_hint_font">#deb7b2</color>-->
+	<!--<color name="color_psw_bg">#fdddde</color>-->
+	<!--<color name="color_psw_hint_bg">#ffeded</color>-->
+	<!--&lt;!&ndash; 上拉加载，下拉刷新颜色&ndash;&gt;-->
+	<!--<color name="color_header_footer_bg">#00ffeded</color>-->
+	<!--<color name="color_header_footer">#b0918c</color>-->
+	<!--&lt;!&ndash; 更新版本弹框 &ndash;&gt;-->
+	<!--<color name="color_dialog_update_bg">#ffeded</color>-->
+	<!--<color name="color_dialog_update_title">#b0918e</color>-->
+	<!--<color name="color_dialog_update_bt">#fff1ee</color>-->
+	<!--<color name="color_dialog_update_bt_bg">#c92424</color>-->
+</resources>

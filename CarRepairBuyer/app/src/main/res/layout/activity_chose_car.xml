@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 导航标题栏 -->
+    <!--<com.minfo.carrepair.widget.PagerSlidingTabStrip-->
+        <!--android:id="@+id/pager_tabstrip"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="#f1f1f1"-->
+
+        <!--android:foregroundGravity="center"-->
+        <!--app:allowWidthFull="true"-->
+        <!--app:slidingBlock="@drawable/img_top_title_bg" />-->
+    <include
+        android:id="@+id/include_tab"
+        layout="@layout/activity_chose_car_tab" />
+    <View
+        android:id="@+id/view_pager_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/include_tab" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_chose_car_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view_pager_line" />
+</RelativeLayout>

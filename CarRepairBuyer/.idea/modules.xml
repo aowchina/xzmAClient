@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CarRepairBuyer.iml" filepath="$PROJECT_DIR$/CarRepairBuyer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/albumlibrary/albumlibrary.iml" filepath="$PROJECT_DIR$/albumlibrary/albumlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easeui/easeui.iml" filepath="$PROJECT_DIR$/easeui/easeui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptr-lib/ptr-lib.iml" filepath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharelib/sharelib.iml" filepath="$PROJECT_DIR$/sharelib/sharelib.iml" />
+    </modules>
+  </component>
+</project>

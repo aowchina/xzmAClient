@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_product"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/qixiu_logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="液力"
+                android:textColor="@color/shop_text_name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tv_name"
+                android:text="$100.00"
+                android:textColor="@color/red" />
+
+            <TextView
+                android:id="@+id/tv_pinpai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="品牌"
+                android:textColor="@color/gray" />
+        <!--<TextView-->
+            <!--android:id="@+id/tv_xi"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/tv_pinpai"-->
+            <!--android:layout_toLeftOf="@+id/tv_kuan"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:text="车系"-->
+            <!--android:textColor="@color/gray" />-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv_kuan"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="车款"-->
+                <!--android:textColor="@color/gray" />-->
+
+        <TextView
+            android:id="@+id/tv_quxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_above="@+id/tv_pinpai"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="取消收藏"
+            android:background="@mipmap/qixiu_zixunkuang"
+            android:textColor="@color/color_white" />
+    </RelativeLayout>
+
+</LinearLayout>

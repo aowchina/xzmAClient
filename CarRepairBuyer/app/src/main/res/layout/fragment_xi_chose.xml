@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.minfo.carrepairseller.fragment.XiChoseFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_name_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/shop_text_name" />
+
+        <GridView
+            android:id="@+id/gr_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="4"
+            android:verticalSpacing="5dp" />
+    </LinearLayout>
+
+</FrameLayout>
